@@ -102,7 +102,7 @@ def run():
     engine.load(mainqml)
 
     setupAnotherInstanceEvent(controller)
-
+    # adding in a comment to demo. branches
     controller.start()
     app.setWindowIcon(QtGui.QIcon(":/qtodotxt"))
     app.exec_()
